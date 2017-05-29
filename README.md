@@ -1,6 +1,19 @@
 ParticlePhysics2D-Unity
 =======================
 
+## Update 29-May-2017:
+> This version is deprecated!  
+> Because finally Unity3D supports ComputeShader on iOS and MacOS, so I am planning to upgrade ParticlePhysics2D to the next major version. Which supports:  
+> - Fully GPU accelerated, which means all the calculation and rendering happens on gpu with out coming back to cpu.
+> - More integrated with Unity's 2D features.
+> - Various line rendering types.
+> - Beautiful line anti-aliasing
+> - and a lots of more!  
+> 
+> I am still waiting for Unity's c# job system, because ParticlePhysics2D heaviliy require multi-threading, it'll be great if I can incoporate this new feature.
+
+---------------------------------------
+
 A fast and stable particle based physics 2D engine for Unity 3D.  
 
 ![Verlet tree physics sim using ParticlePhysics2D](http://38.media.tumblr.com/72947caee1de726465db4b001544384c/tumblr_nuwya1k5B21riukqoo1_400.gif)
